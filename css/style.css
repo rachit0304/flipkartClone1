@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 6vh;
+    background-color: blue;
+
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px;
+    padding: 0 20px;
+}
+
+nav ul {
+    height: 6vh;
+    display: flex;
+    justify-content: flex-start;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: black;
+    font-weight: bold;
+
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 30vw;
+    height: 37px;
+    border-radius: 6px;
+    margin: 0 6px 0 56px;
+}
+.btn{
+    
+    padding: 5px 10px;
+    color: red;
+    cursor: pointer;
+}
+.btn:hover{
+    color: black;
+    font-weight: 900;
+
+}
+.btn2{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    width: 120px;
+    justify-content: center;
+    align-content: center;
+    margin: 12px 50px;
+    cursor: pointer;
+}
+
+.container {
+    min-height: calc(100vh - 18vh);
+    background-color: wheat;
+    /* width: 100vw; */
+}
+.topp{
+    justify-content: center;
+    align-items: center;
+    padding: 5px 400px 5px 400px;
+}
+.top{
+    background-color: white;
+    height: 15vh;
+    
+    padding: 10px 300px 10px 300px;
+    border: 1px solid gray;
+    
+
+}
+
+
+
+.top img{
+    padding: 0 20px;
+}
+.top2{
+    background-color: rgb(251, 247, 247);
+    min-height: calc(100vh);
+    padding: 20px 50px 0 50px;
+    /* overflow: scroll; */
+    /* margin: 200px; */
+    /* padding: 0px; */
+
+}
+.top3{
+    background-color: white;
+    /* border: 2px solid black; */
+    height: 20vh;
+
+}
+.top3 img{
+    padding: 20px;
+}
+.top4{
+    background-color: wheat;
+    /* border: 2px solid black; */
+    padding: 10px 20px;
+    overflow-x: scroll;
+}
+.top4 img{
+    padding: 20px;
+}
+.top5{
+    /* border: 2px solid black; */
+    padding: 10px 20px;
+    overflow-x: scroll;
+    background-color: white;
+}
+.top5 img{
+
+    padding: 10px;
+}
+
+footer {
+    height: 35vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    align-items: center bottom;
+    
+}
